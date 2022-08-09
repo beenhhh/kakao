@@ -10,9 +10,9 @@ button { border:0; background:transparent; cursor:pointer;}
 
 
 
-#container { max-width:640px; min-width:320px; height:2000px; margin:0 auto; background:linear-gradient(to bottom, #fff 50%, #38b9f5 75%, #fc4c4c) }
+#container { max-width:640px; min-width:320px; height:2000px; margin:0 auto; }
 
-header { position:fixed; top:0; left:0; right:0; background:#fff; max-width:640px; min-width:320px; margin:0 auto; }
+header { position:fixed; top:0; left:0; right:0; background:#fff; max-width:640px; min-width:320px; margin:0 auto; z-index: 2;}
 
 h1 { text-align:center; line-height:46px; height:46px; }
 h1 a { display:inline-block; width:147px; height:24px; background:url('../img/logo_kakaofriends.png') 0 0 / 147px 24px; }
@@ -57,8 +57,180 @@ article .box { padding:20px; }
 .article_head .info strong { display:block; font-size:16px; line-height:24px;}
 .article_head .info .txt_time { font-size:13px; color:#808080 }
 
-.article_con { }
+.article_con { margin-bottom: 40px;}
 .article_con img { width:100%; border-radius:15px; }
+
+
+/****item01****/
+.content .item01{
+    display: block;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.content .item01 img{
+    position: relative;
+    left: 50%;
+    width:100%; 
+    border-radius:15px;
+    transform: translate(-50%);
+}
+
+.content .item01 span strong{
+    font-size: 22px;
+}
+
+.content .item01 span{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+    padding: 0 20px 26px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+/****item02****/
+.content .item02{
+    display: block;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.content .item02 img{
+    position: relative;
+    left: 50%;
+    width:100%; 
+    border-radius:15px;
+    transform: translate(-50%);
+}
+
+.content .item02 span strong{
+    font-size: 22px;
+    
+}
+
+.content .item02 span{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+    padding: 0 20px 26px;
+    box-sizing: border-box;
+    font-size: 16px;
+    
+}
+
+/****item03****/
+.content .item03{
+    display: block;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.content .item03 img{
+    position: relative;
+    left: 50%;
+    width:100%; 
+    border-radius:15px;
+    transform: translate(-50%);
+}
+
+.content .item03 span strong{
+    font-size: 22px;
+    color: #fff;
+}
+
+.content .item03 span{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+    padding: 0 20px 26px;
+    box-sizing: border-box;
+    font-size: 16px;
+    color: #fff;
+}
+
+/****item04****/
+.content .item04{
+    display: block;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.content .item04 img{
+    position: relative;
+    left: 50%;
+    width:100%; 
+    border-radius:15px;
+    transform: translate(-50%);
+}
+
+.content .item04 span strong{
+    font-size: 22px;
+    color: #fff;
+}
+
+.content .item04 span{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+    padding: 0 20px 26px;
+    box-sizing: border-box;
+    font-size: 16px;
+    color: #fff;
+}
+
+footer{
+    background: #ececec;
+    height: 400px;
+}
+
+.footer_inner{
+    padding: 10px;
+}
+
+.footer_inner a {
+    padding: 5px;
+    color: #b4b3b3;
+    font-size: 12px;
+    
+}
+
+.footer_inner strong{
+    color: #848484;
+    font-size: 12px;
+}
+
+.footer_inner span{
+    color: #9c9b9b;
+    font-size: 12px;
+}
+
+.foooter_img{
+    padding: 15px;
+}
+
+.foooter_img img{
+    width: 70px;
+    height: 25px;
+}
+
+.footer_txt{
+    padding: 10px;
+}
+
+.footer_txt span{
+    padding: 5px;
+    color: #9c9b9b;
+    font-size: 12px;
+}
 
 
 
